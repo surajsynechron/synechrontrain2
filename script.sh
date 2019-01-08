@@ -1,7 +1,9 @@
 #!/bin/bash
-df -h
+
+ifconfig
+
 
 cal
 
-echo "my script is working"
+echo "my Dev script is working"
 
