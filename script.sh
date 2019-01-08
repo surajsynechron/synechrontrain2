@@ -1,4 +1,7 @@
 #!/bin/bash
 df -h
-echo "my script is working"
+
 cal
+
+echo "my script is working"
+
