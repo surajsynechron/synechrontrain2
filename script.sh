@@ -7,3 +7,5 @@ cal
 uname -a
 
 echo "my Dev script is working"
+
+echo "Pipeline"
