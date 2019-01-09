@@ -1,7 +1,6 @@
 #!/bin/bash
 
-ifconfig
-
+yes SURAJ|head -10
 
 cal
 
