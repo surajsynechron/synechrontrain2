@@ -1,2 +1,2 @@
 [web]
-client.suraj
+client.suraj ansible_user=root
