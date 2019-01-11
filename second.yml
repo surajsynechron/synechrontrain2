@@ -3,4 +3,4 @@
     - name: creating a user
       user:
         name: synechron
-        state: absent
+        state: present
