@@ -1,8 +1,6 @@
----
-- hosts: client.suraj
+- hosts: web
   tasks:
-    - name: installing openjdk package
-      apt:
-        name: openjdk-8-jdk
-        state: present
-        update_cache: true
+    - name: creating a user
+      user:
+        name: synechron
+        state: absent
