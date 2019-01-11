@@ -1,0 +1,8 @@
+---
+- hosts: client.suraj
+  tasks:
+    - name: installing openjdk package
+      apt:
+        name: openjdk-8-jdk
+        state: present
+        update_cache: true
